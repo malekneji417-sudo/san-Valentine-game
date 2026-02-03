@@ -1,0 +1,34 @@
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  font-family: 'Radley', serif;
+  background-color: #6a0dad; /* viola intenso */
+  color: white;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.5em;
+  margin-bottom: 40px;
+}
+
+.buttons {
+  position: relative;
+}
+button {
+  z-index: 10;
+  position: relative;
+}
+button {
+  font-size: 2em;
+  padding: 15px 30px;
+  margin: 10px;
+  cursor: pointer;
+  border: none;
+  border-radius: 12px;
+}
